@@ -3,3 +3,5 @@
 
 # nodejs-package
 [![Maintainability](https://api.codeclimate.com/v1/badges/240acc4bc587afbe29f4/maintainability)](https://codeclimate.com/github/Tatsianaana/frontend-project-44/maintainability)
+
+https://asciinema.org/a/ejePpn8iU7QbuhxMVknRyfhFy
