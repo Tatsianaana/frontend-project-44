@@ -5,7 +5,7 @@ const getRandomInt = (min, max) => {
   const maxIntNum = Math.floor(max);
   return Math.floor(Math.random() * (maxIntNum - minIntNum + 1)) + minIntNum;
 };
-const task = 'Answer "yes" if the number is even, otherwise answer "no".';
+const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const getAnswer = () => {
   const randomInt = getRandomInt(2, 20);
@@ -13,6 +13,6 @@ const getAnswer = () => {
   return [String(randomInt), rightAnswer];
 };
 
-const runGame = () => launchGame(task, getAnswer);
+const runGame = () => launchGame(rules, getAnswer);
 
 export default runGame;
