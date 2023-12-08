@@ -1,11 +1,7 @@
-import launchGame from '../index.js';
+import app from '../index.js';
+import getRandomInt from '../half.js';
 
-const getRandomInt = (min, max) => {
-  const minIntNum = Math.ceil(min);
-  const maxIntNum = Math.floor(max);
-  return Math.floor(Math.random() * (maxIntNum - minIntNum + 1)) + minIntNum;
-};
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const getAnswer = () => {
   const randomInt = getRandomInt(2, 20);
@@ -13,6 +9,6 @@ const getAnswer = () => {
   return [String(randomInt), rightAnswer];
 };
 
-const runGame = () => launchGame(rules, getAnswer);
+const runGame = () => app(RULES, getAnswer);
 
 export default runGame;
