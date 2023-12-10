@@ -1,6 +1,8 @@
 import app from '../index.js';
 import getRandomInt from '../half.js';
 
+const MIN_INT_NUM = 0;
+const MAX_INT_NUM = 100;
 const RULES = 'Find the greatest common divisor of given numbers.';
 
 const getGCD = (a, b) => {
@@ -14,8 +16,8 @@ const getGCD = (a, b) => {
 };
 
 const getAnswer = () => {
-  const a = getRandomInt(0, 100);
-  const b = getRandomInt(0, 100);
+  const a = getRandomInt(MIN_INT_NUM, MAX_INT_NUM);
+  const b = getRandomInt(MIN_INT_NUM, MAX_INT_NUM);
 
   const rightAnswer = getGCD(a, b);
   const question = `${a} ${b}`;
