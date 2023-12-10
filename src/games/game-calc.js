@@ -1,6 +1,8 @@
 import app from '../index.js';
 import getRandomInt from '../half.js';
 
+const MIN_INT_NUM = 1;
+const MAX_INT_NUM = 20;
 const RULES = 'What is the result of the expression?';
 const OPERATORS = ['+', '-', '*'];
 
@@ -18,8 +20,8 @@ const getMathExpression = (operand1, operand2, operator) => {
 };
 
 const getAnswer = () => {
-  const operand1 = getRandomInt(1, 20);
-  const operand2 = getRandomInt(1, 20);
+  const operand1 = getRandomInt(MIN_INT_NUM, MAX_INT_NUM);
+  const operand2 = getRandomInt(MIN_INT_NUM, MAX_INT_NUM);
   const operator = OPERATORS[getRandomInt(0, OPERATORS.length - 1)];
 
   const rightAnswer = getMathExpression(operand1, operand2, operator);
