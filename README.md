@@ -23,7 +23,7 @@ $ npm link
 $ brain-even
 ```
 
-[![asciicast] (hejePpn8iU7QbuhxMVknRyfttps://asciinema.org/a/hFy)] (hejePpn8iU7QbuhxMVknRyfttps://asciinema.org/a/hFy)
+[![asciicast](https://asciinema.org/a/ejePpn8iU7QbuhxMVknRyfhFy.svg)](https://asciinema.org/a/ejePpn8iU7QbuhxMVknRyfhFy)
 
 ### Игра: "Калькулятор"
 
@@ -32,7 +32,7 @@ $ brain-even
 $ brain-calc
 ```
 
-[![asciicast] (https://asciinema.org/a/ZFAOJhx3l7913OOCQODAJ92Z8)] (https://asciinema.org/a/ZFAOJhx3l7913OOCQODAJ92Z8)
+[![asciicast](https://asciinema.org/a/ZFAOJhx3l7913OOCQODAJ92Z8.svg)](https://asciinema.org/a/ZFAOJhx3l7913OOCQODAJ92Z8)
 
 ### Игра "Наибольший общий делитель (НОД)"
 
@@ -41,7 +41,7 @@ $ brain-calc
 $ brain-gcd
 ```
 
-[![asciicast] (https://asciinema.org/a/CsCURNkwIDaB1WRQNhk5jt1Ug)] (https://asciinema.org/a/CsCURNkwIDaB1WRQNhk5jt1Ug)
+[![asciicast](https://asciinema.org/a/CsCURNkwIDaB1WRQNhk5jt1Ug.svg)](https://asciinema.org/a/CsCURNkwIDaB1WRQNhk5jt1Ug)
 
 ### Игра "Арифметическая прогрессия"
 
@@ -50,7 +50,7 @@ $ brain-gcd
 $ brain-progression
 ```
 
-[![asciicast] (https://asciinema.org/a/hxEKhAsznJ97KUMs6ypO1JXCf)] (https://asciinema.org/a/hxEKhAsznJ97KUMs6ypO1JXCf)
+[![asciicast](https://asciinema.org/a/hxEKhAsznJ97KUMs6ypO1JXCf.svg)](https://asciinema.org/a/hxEKhAsznJ97KUMs6ypO1JXCf)
 
 ### Игра "Простое ли число?"
 
@@ -59,4 +59,4 @@ $ brain-progression
 $ brain-prime
 ```
 
-[![asciicast] (https://asciinema.org/a/LaoyDcvdYcNY18o265WEga7FT)] (https://asciinema.org/a/LaoyDcvdYcNY18o265WEga7FT)
+[![asciicast](https://asciinema.org/a/LaoyDcvdYcNY18o265WEga7FT.svg)](https://asciinema.org/a/LaoyDcvdYcNY18o265WEga7FT)
