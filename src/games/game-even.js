@@ -1,5 +1,5 @@
 import app from '../index.js';
-import getRandomInt from '../half.js';
+import getRandomInt from '../utils.js';
 
 const MIN_INT_NUM = 1;
 const MAX_INT_NUM = 20;
