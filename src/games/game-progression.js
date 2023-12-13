@@ -31,6 +31,6 @@ const getAnswer = () => {
   return [question, String(rightAnswer)];
 };
 
-const runGame = () => app(RULES, getAnswer);
+const brainProgression = () => app(RULES, getAnswer);
 
-export default runGame;
+export default brainProgression;
