@@ -15,7 +15,7 @@ const getMathExpression = (operand1, operand2, operator) => {
     case '*':
       return operand1 * operand2;
     default:
-      return null;
+      throw new Error(`Unknown operator: '${operator}'!`);
   }
 };
 
@@ -30,6 +30,6 @@ const getAnswer = () => {
   return [question, String(rightAnswer)];
 };
 
-const runGame = () => app(RULES, getAnswer);
+const brainCalc = () => app(RULES, getAnswer);
 
-export default runGame;
+export default brainCalc;
