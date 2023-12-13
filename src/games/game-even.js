@@ -5,12 +5,14 @@ const MIN_INT_NUM = 1;
 const MAX_INT_NUM = 20;
 const RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
 
+const isEven = (number) => number % 2 === 0;
+
 const getAnswer = () => {
-  const randomInt = getRandomInt(MIN_INT_NUM, MAX_INT_NUM);
-  const rightAnswer = randomInt % 2 === 0 ? 'yes' : 'no';
-  return [String(randomInt), rightAnswer];
+  const question = getRandomInt(MIN_INT_NUM, MAX_INT_NUM);
+  const rightAnswer = isEven(question) ? 'yes' : 'no';
+  return [String(question), rightAnswer];
 };
 
-const runGame = () => app(RULES, getAnswer);
+const brainEven = () => app(RULES, getAnswer);
 
-export default runGame;
+export default brainEven;
