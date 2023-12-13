@@ -25,6 +25,6 @@ const getAnswer = () => {
   return [question, String(rightAnswer)];
 };
 
-const runGame = () => app(RULES, getAnswer);
+const brainGCD = () => app(RULES, getAnswer);
 
-export default runGame;
+export default brainGCD;
