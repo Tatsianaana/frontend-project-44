@@ -1,4 +1,4 @@
-import app from '../index.js';
+import playGame from '../index.js';
 import getRandomInt from '../utils.js';
 
 const MIN_INT_NUM = 1;
@@ -13,6 +13,6 @@ const getAnswer = () => {
   return [String(question), rightAnswer];
 };
 
-const brainEven = () => app(RULES, getAnswer);
+const runGameEven = () => playGame(RULES, getAnswer);
 
-export default brainEven;
+export default runGameEven;
