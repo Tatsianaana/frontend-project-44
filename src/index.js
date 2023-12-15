@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
 
-const app = (rules, getAnswer) => {
+const rightAnswersCount = 3;
+
+const playGame = (rules, getAnswer) => {
   console.log('Welcome to the Brain Games!');
 
   const userName = readlineSync.question('May I have your name? ');
@@ -8,7 +10,7 @@ const app = (rules, getAnswer) => {
 
   console.log(rules);
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < rightAnswersCount; i += 1) {
     const [randomInt, rightAnswer] = getAnswer();
 
     console.log(`Question: ${randomInt}`);
@@ -25,4 +27,4 @@ const app = (rules, getAnswer) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default app;
+export default playGame;
