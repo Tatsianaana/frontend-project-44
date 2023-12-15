@@ -1,4 +1,4 @@
-import app from '../index.js';
+import playGame from '../index.js';
 import getRandomInt from '../utils.js';
 
 const MIN_INT_NUM = 0;
@@ -25,6 +25,6 @@ const getAnswer = () => {
   return [question, String(rightAnswer)];
 };
 
-const brainGCD = () => app(RULES, getAnswer);
+const runGameGCD = () => playGame(RULES, getAnswer);
 
-export default brainGCD;
+export default runGameGCD;
