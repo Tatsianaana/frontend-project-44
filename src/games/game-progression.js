@@ -1,4 +1,4 @@
-import app from '../index.js';
+import playGame from '../index.js';
 import getRandomInt from '../utils.js';
 
 const MIN_INT_NUM = 1;
@@ -31,6 +31,6 @@ const getAnswer = () => {
   return [question, String(rightAnswer)];
 };
 
-const brainProgression = () => app(RULES, getAnswer);
+const runGameProgression = () => playGame(RULES, getAnswer);
 
-export default brainProgression;
+export default runGameProgression;
